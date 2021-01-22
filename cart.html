@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Navigation -->
+		<title>Infomática | INFOrest, INFOhotel, INFOback y AMC technology.</title>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header class="header">
+			<a class="header__logo d-none d-sm-block" href="/">
+				<img class="header-logo__image" src="images/logo.svg" alt="Imagen Logo header">
+			</a>
+			<a href="https://www.infomatica.pe" class="header__logo--responsive d-sm-none">
+				<img class="header-logo__image-responsive" src="images/logo-responsive.png" alt="Imagen Logo Responsive">
+			</a>
+            <a href="cart.html">
+                <button class="btn btn-primary bg-button cart mr-2"><i class="fas fa-shopping-cart mr-1"></i><span class="mx-3">0</span></button>
+            </a>
+
+		</header>
+        <!-- Header -->
+
+        <div class="products-container container-fluid">
+            <div class="product-header py-1">
+                <h5 class="product-title">PRODUCT</h5>
+                <h5 class="price">PRICE</h5>
+                <h5 class="quantity">QUANTITY</h5>
+                <h5 class="total">TOTAL</h5>
+            </div>
+            <div class="products">
+
+            </div>
+		</div>
+		
+		<div class="container wow fadeIn">
+			<!--Main layout-->
+			<main>
+				<div class="container wow fadeIn">
+					<h2 class="my-5 h2 text-center">Checkout form</h2>
+					<div class="row">
+						<div class="col-md-8 mb-4">
+							<div class="card">
+								<form class="card-body">
+									<div class="row">
+
+										<div class="col-md-6 mb-2">
+											<div class="md-form ">
+												<label for="firstName">Nombres</label>
+												<input type="text"placeholder="Tu Nombre" id="firstName" class="form-control">
+											</div>
+						
+										</div>
+										<div class="col-md-6 mb-2">
+											<div class="md-form">
+												<label for="lastName">Apellidos</label>
+												<input type="text" placeholder="Tu Apellido" id="lastName" class="form-control">
+											</div>
+										</div>
+
+										<div class="col-md-6 mb-2">
+												<div class="md-form">
+													<label for="lastName">Nombre de tu empresa</label>
+													<input type="text" placeholder="Tu empresa" id="lastName" class="form-control">
+												</div>
+											</div>
+										<div class="col-md-6 mb-2">
+											<div class="md-form">
+												<label for="lastName">DNI / RUC</label>
+												<input type="text" placeholder="Tu DNI o RUC" id="lastName" class="form-control">
+											</div>
+										</div>
+
+									</div>
+
+									<div class="md-form input-group pl-0 mb-2">
+										<div class="input-group-prepend">
+											<span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+										</div>
+										<input type="text" class="form-control py-0" placeholder="Tu teléfono" aria-describedby="basic-addon1">
+									</div>
+
+									<div class="md-form mb-2">
+										<label for="email" >Email</label>
+										<input type="text" id="email" class="form-control" placeholder="tucorreo@mail.com">
+									</div>
+
+									<div class="md-form mb-2">
+										<label for="address" class="">Tu dirección</label>
+										<input type="text" id="address" class="form-control" placeholder="Av. Tu dirección">
+									</div>
+									<div class="md-form mb-2">
+										<label for="address-2" class="">Tu dirección (optional)</label>
+										<input type="text" id="address-2" class="form-control" placeholder="Tu dirección (optional">
+									</div>
+				
+									<hr>
+					
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="same-address">
+										<label class="custom-control-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación.</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="save-info">
+										<label class="custom-control-label" for="save-info">Guardar esta información para la próxima vez</label>
+									</div>
+					
+									<hr>
+					
+									<div class="d-block my-1">
+									<div class="custom-control custom-radio">
+										<input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+										<label class="custom-control-label" for="credit">Tarjeta de Crédito</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+										<label class="custom-control-label" for="debit">Tarjeta de Debito</label>
+									</div>
+									<!-- <div class="custom-control custom-radio">
+										<input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+										<label class="custom-control-label" for="paypal">Paypal</label>
+									</div> -->
+									<hr>
+
+									</div>
+									<div class="row">
+									<div class="col-md-6 mb-1">
+										<label for="cc-name">Nombres Completos</label>
+										<input type="text" class="form-control" id="cc-name" placeholder="" required>
+										<small class="text-muted">Nombre completo como en la tarjeta</small>
+										<div class="invalid-feedback">
+											El nombre del titular de la tarjeta es requerida
+										</div>
+									</div>
+									<div class="col-md-6 mb-1">
+										<label for="cc-number">Numeros de la tarjeta</label>
+										<input type="text" class="form-control" id="cc-number" placeholder="" required>
+										<div class="invalid-feedback">
+											Numeros de la tarjeta son requeridos
+										</div>
+									</div>
+									</div>
+									<div class="row">
+									<div class="col-md-3 mb-1">
+										<label for="cc-expiration">Expiración</label>
+										<input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+										<div class="invalid-feedback">
+											Los datos de expiración son requeridas
+										</div>
+									</div>
+									<div class="col-md-3 mb-1">
+										<label for="cc-expiration">CVV</label>
+										<input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+										<div class="invalid-feedback">
+											El codigo de CVV es requerido
+										</div>
+									</div>
+									</div>
+									<hr class="mb-1">
+									<button class="btn btn-primary btn-lg btn-block" type="submit">Comprar</button>
+					
+								</form>
+				
+							</div>
+							<!--/.Card-->
+				
+						</div>
+						<!--Grid column-->
+
+					</div>
+					<!--Grid row-->
+				</div>
+			</main>
+			<!--Main layout-->
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-10 offset-md-1">
+							<div class="footer__container">
+								<a href="https://www.infomatica.pe">
+									<img src="images/logo.svg" alt="Imagen del Logo Footer" class="footer__logo">
+								</a>
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/inforest">
+										<h4 class="menu__title mt-0 text-title-footer">INFOrest</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">INFOrest</h4>
+									<li style="display: list-item;"><a href="/inforest/#beneficios">Beneficios</a></li>
+									<li style="display: list-item;"><a href="/inforest/#infoback">INFOback</a></li>
+									<li style="display: list-item;"><a href="/inforest/#version-movil">Versión Móvil</a></li>
+									<li style="display: list-item;"><a href="/inforest/#modulos">Módulos</a></li>
+									<li style="display: list-item;"><a href="/inforest/#complementos">Complementos</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/infohotel">
+										<h4 class="menu__title mt-0 text-title-footer">INFOhotel</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">INFOhotel</h4>
+									<li><a href="/infohotel/#beneficios">Beneficios</a></li>
+									<li><a href="/infohotel/#infoback">INFOback</a></li>
+									<li><a href="/infohotel/#integracion-web">Integración Web</a></li>
+									<li><a href="/infohotel/#modulos">Módulos</a></li>
+									<li><a href="/infohotel/#complementos">Complementos</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/servicios">
+										<h4 class="menu__title mt-0 text-title-footer">Servicios</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Servicios</h4>
+									<li><a href="/servicios/#post-venta">Post Venta</a></li>
+									<li><a href="/servicios/#beneficios">Beneficios</a></li>
+									<li><a href="/servicios/#infofact">INFOfact</a></li>
+									<li><a href="/servicios/#capacitaciones">Capacitaciones</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/productos">
+										<h4 class="menu__title mt-0 text-title-footer">Productos</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Productos</h4>
+									<li><a href="/productos/#amc">AMC</a></li>
+									<li><a href="/productos/#hardware">Hardware</a></li>
+									<li><a href="/productos/#cableado">Cableado</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/soporte">
+										<h4 class="menu__title mt-0 text-title-footer">Soporte</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Soporte</h4>
+									<li><a href="/soporte/#tutoriales">Tutoriales</a></li>
+									<li><a href="/soporte/#tickets">Tickets</a></li>
+									<li><a href="/soporte/#aplicacion-movil">Aplicación Móvil</a></li>
+									<li><a href="/soporte/#contacto">Contacto</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/nosotros">
+										<h4 class="menu__title mt-0 text-title-footer">Nosotros</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Nosotros</h4>
+									<li><a href="/nosotros/#trayectoria">Trayectoria</a></li>
+									<li><a href="/nosotros/#cultura">Cultura</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+		</footer>
+	
+		<div class="footer-bar">
+				<div class="container-fluid">
+					<div class="row mx-0 d-none d-md-flex">
+						<div class="col-md-12 text-center">
+							<span>© 2021, Infomática. Todos los derechos reservados.</span>
+						</div>
+					</div>
+					<a href="#">
+						<div class="row d-md-none px-15px">	
+							<div class="col">Regresar arriba</div>
+							<div class="col text-right">
+								<img class="d-md-none" src="images/back-top-icon.png"></img>
+							</div>
+						</div>
+					</a>
+				</div>
+		</div>
+		<!-- Footer -->
+
+
+		<script src="js/car2.js"></script>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>

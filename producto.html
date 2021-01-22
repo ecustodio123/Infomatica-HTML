@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Navigation -->
+		<title>Infomática | INFOrest, INFOhotel, INFOback y AMC technology.</title>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header class="header">
+			<a class="header__logo d-none d-sm-block" href="/">
+				<img class="header-logo__image" src="images/logo.svg" alt="Imagen Logo header">
+			</a>
+			<a href="https://www.infomatica.pe" class="header__logo--responsive d-sm-none">
+				<img class="header-logo__image-responsive" src="images/logo-responsive.png" alt="Imagen Logo Responsive">
+			</a>
+            <a href="cart.html">
+				<button class="btn btn-primary bg-button cart mr-2"><i class="fas fa-shopping-cart mr-1"></i><span class="mx-3">0</span></button>
+			</a>
+
+		</header>
+        <!-- Header -->
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 offset-md-1 text-center py-8 order-1">
+                    <div class="featured-product">
+                        <div class="featured-product__leftbar">
+                            <div id="product-bullet" class="product-bullet product-bullet--left aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" style="top:15%;">
+                                <div class="product-bullet__content">
+                                    <span id="title-field" class="product-bullet__title">Pantalla de 10"</span>
+                                    <p id="description-field" class="product-bullet__description">Pantalla capacitiva resistente y duradera.</p>
+                                </div>
+                            </div>
+                            <div id="product-bullet" class="product-bullet product-bullet--left aos-init" data-aos="fade-up" data-aos-delay="400" style="top:70%;">
+                                <div class="product-bullet__content">
+                                    <span id="title-field" class="product-bullet__title">Impresora Térmica"</span>
+                                    <p id="description-field" class="product-bullet__description">Impresora resistente al polvo, grasa y humedad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-product__image">
+                            <img src="images/a42hhP3Pq4cj2N7HK3EbdEFC3NT51pl4DefW0Sd3.png" alt="Producto AMC">
+                        </div>
+                        <div class="featured-product__rightbar">
+                            <div id="product-bullet" class="product-bullet product-bullet--right aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="top:50%;">
+                                <div class="product-bullet__content">
+                                    <span id="title-field" class="product-bullet__title">Lectora de Banda Magnética</span>
+                                    <p id="description-field" class="product-bullet__description">Lectora de tarjetas de banda magnética para mayor seguridad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 px-0" id="amc">
+                    <div class="bg-grey pt-8 pb-6 px-until-md-15px">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-1">
+                                <h1>AMC</h1>
+                                <p>Equipos All-in-One de alta gama, elaborados para trabajar en las más duras condiciones.</p>
+                                <a class="btn-bold btn-bold--underline" href="#" onclick="openPopup('reg')" ontouchstart="openPopup('reg')">
+                                    <span>Más información</span>
+                                    <img src="images/icon-right-arrow-regular.png" alt="Right Arrow">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-3 offset-md-1 order-1">
+                    <h1 class="animate mt-until-md-4 aos-init aos-animate" data-aos="fade-up">El equipo perfecto para tu negocio</h1>
+                    <p class="text-regular aos-init aos-animate" data-aos="fade-up">
+                        Nuestros equipos AMC están elaborados de materiales altamente resistentes y cuentan con la certificación IP66 (resistentes al polvo, humedad y grasa), perfectos para trabajar en ambientes como cocinas, clubes, aire libre, etc…
+                    </p>
+                </div>
+                <div class="col-md-7 offset-md-1 pr-0">
+                    <img class="mt-8 mt-until-md-0 img-responsive aos-init aos-animate" data-aos="fade-up" src="images/products-hero.jpg" alt="Productos">
+                </div>
+            </div>
+
+            <div class="row mt-8 mt-until-md-4">
+                <div class="col-md-5 offset-md-3">
+                    <img class="img-responsive mb-4-negative z-index-front aos-init aos-animate" data-aos="fade-up" src="images/inforest-hero.jpg" alt="INFOrest">
+                </div>
+            </div>
+
+            <div class="row mb-8">
+                <div class="col-md-5 pl-0">
+                    <div class="bg-grey pt-8 pb-6 px-until-md-15px">
+                        <div class="row mt-6 mt-until-md-0">
+                            <div class="col-md-9 offset-md-2">
+                                <h1 class="animate aos-init aos-animate" style="opacity: 1;">Nuestros Productos</h1>
+                                <p class="text-regular aos-init aos-animate" data-aos="fade-up">AMC cuenta con diferentes tipos de equipos All-in-One e impresoras, elige el que mejor se acomodé a tu necesidad y condiciones de  trabajo. Si necesitas ayuda déjanos tus datos y nos comunicaremos contigo.</p>
+                                <p class="d-flex align-items-center mt-2 mb-4 aos-init aos-animate" data-aos="fade-up">
+                                    Windows Server, Windows 10 &nbsp;
+                                    <img src="images/windows-small-icon.png" alt="Logo de Windows">
+                                    &nbsp;&nbsp; Linux &nbsp;
+                                    <img src="images/linux-small-icon.png" alt="Logo de Linux">
+                                </p>
+                                <a class="btn-bordered" href="https://www.infomatica.pe/contacto">
+                                    Comprar Productos
+                                    <img src="images/icon-right-arrow-small.png" alt="Right Arrow Small">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-1 mt-8">
+                    <h1 class="mt-8 mt-until-md-0 px-until-md-15px aos-init aos-animate" data-aos="fade-up">AMC TECHNOLOGY</h1>
+                    <div class="table-responsive">
+                        <table class="table-products-list aos-init aos-animate" data-aos="fade-up">
+                            <thead>
+                                <tr>
+                                    <th>Modelo</th>
+                                    <th>Velocidad</th>
+                                    <th>certificación</th>
+                                    <th>Precio</th>
+                                    <th>Comprar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- <tr onclick="openPopup('product', 4)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/28mSYjHazLhUDfsgUwRNiEEkNxktDOwWS2yQAsiv.png" title="AMC T180" alt="AMC T180">&nbsp;&nbsp;
+										<strong>AMC T180</strong>
+									</td>
+									<td>
+										<span>Prueba</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/60.00</td>
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+                                <!-- <tr onclick="openPopup('product', 6)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/lQbYqitLp53hQzum1TgnhrgdZcACfAWnJatJoIdv.png" title="AMC KDS 1501" alt="AMC KDS 1501">&nbsp;&nbsp;
+										<strong>AMC KDS 1501</strong>
+									</td>
+									<td>
+										<span>J190 2.4 GHz</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/40.00</td>
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+                                <!-- <tr onclick="openPopup('product', 7)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/FRu2zl9cNMI4ZRSeslkG5vEsY9Jch6CeubwGmPLS.png" title="AMC 1001 WP" alt="AMC 1001 WP">&nbsp;&nbsp;
+										<strong>AMC 1001 WP</strong>
+									</td>
+									<td>
+										<span>J190 2.4 GHz</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/30.00</td>
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+                                <!-- <tr onclick="openPopup('product', 8)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/vBJl7VPLBaSGEmyZ44wMfFnwtuUoA6GCE7OFSzaQ.png" title="AMC 1001" alt="AMC 1001">&nbsp;&nbsp;
+										<strong>AMC 1001</strong>
+									</td>
+									<td>
+										<span>J190 2.4 GHz</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/80.00</td>									
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+                                <!-- <tr onclick="openPopup('product', 9)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/oRU2UB1nADdaLoAe7G8hCuSEJxGkWIRKcQBIukyj.png" title="AMC 1502 WP" alt="AMC 1502 WP">&nbsp;&nbsp;
+										<strong>AMC 1502 WP</strong>
+									</td>
+									<td>
+										<span>J190 2.4 GHz</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/90.00</td>
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+                                <!-- <tr onclick="openPopup('product', 10)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/q4zzwW9zmoThr4dtZ4uY7nAyr6PAf2woMmoYPYfT.png" title="AMC 1502" alt="AMC 1502">&nbsp;&nbsp;
+										<strong>AMC 1502</strong>
+									</td>
+									<td>
+										<span>J190 2.4 GHz</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/20.00</td>
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+                                <!-- <tr onclick="openPopup('product', 12)"> -->
+                                <tr>
+                                    <td class="d-flex align-items-center">
+										<img  class="product__thumbnail" src="images/Zs3NQizp6jbXLZzaIVJbDc6xbyxD54V0Mw22Wra5.png" title="AMC 1520" alt="AMC 1520">&nbsp;&nbsp;
+										<strong>AMC 1520</strong>
+									</td>
+									<td>
+										<span>J190 2.4 GHz</span>
+									</td>
+									<td>
+										<span class="d-flex align-items-center">
+											IP66 &nbsp;
+											<img src="images/small-icon-01.png" alt="Icono 1">&nbsp;
+											<img src="images/small-icon-02.png" alt="Icono 2">&nbsp;
+											<img src="images/small-icon-03.png" alt="Icono 3">
+										</span>
+									</td>
+									<td>S/30.00</td>
+									<td>
+										<button class="btn btn-primary bg-button add-cart cart ml-4"><i class="fas fa-plus-circle"></i></button>
+									</td>
+								</tr>
+								
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+			</div>
+			
+			<div id="hardware">
+				<div class="row">
+					<div class="col-md-10 offset-md-2 bg-grey py-7">
+						<div class="row pb-4 mb-8">
+							<div class="col-md-5 offset-md-1">
+								<h1 class="animate aos-init aos-animate" data-aos="fade-up">El Mejor Hardware del Mercado</h1>
+								<p class="animate aos-init aos-animate" data-aos="fade-up">PC's personalizadas para ser compatibles con INFOhotel® e INFOrest®. Trabajamos con una amplia gama de proveedores que nos proporcionan partes de la más alta calidad para así poder armar computadoras rápidas y duraderas para tu negocio.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<div class="layered-illustration mt-6-negative ml-4-negative" style="height: 563.5px;">
+									<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_hardware_ilustracion1.png" data-aos="fade-up" data-aos-delay="600">
+									<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_hardware_ilustracion2.png" data-aos="fade-up" data-aos-delay="400">
+									<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_hardware_ilustracion3.png" data-aos="fade-up" data-aos-delay="200">
+									<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_hardware_ilustracion4.png" data-aos="fade-up">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<h1 class="animate aos-init aos-animate" data-aos="fade-up">También trabajamos con HP y Lenovo y sus servidores de alta calidad</h1>
+								<a class="btn-bold btn-bold--underline aos-init aos-animate" data-aos="fade-up" href="#" onclick="event.preventDefault(); openPopup('reg')" ontouchstart="event.preventDefault(); openPopup('reg')">
+									<span>Para más información de nuestro hardware llene la siguiente ficha</span>
+									<img src="images/icon-right-arrow-regular.png" style="display: inherit";>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="py-7 py-until-md-5" id="cableado">
+				<div class="row my-7 my-until-md-0">	
+					<div class="col-md-4 offset-md-1">
+						<h1 class="mb-3 aos-init aos-animate" data-aos="fade-up">Contamos con profesionales expertos en estructurado de cableado categoría 6. </h1>
+						<p class="text-regular aos-init" data-aos="fade-up">El cable categoría 6 se emplea para 10BASE-T, 100BASE-TX Y 1000BASE-TX Gigabit Ethernet. Asimismo alcanza frecuencias de hasta 250 MHz en cada par y una velocidad de 1Gbps.</p>
+					</div>
+
+					<div class="col-md-5 offset-md-1">
+						<div class="layered-illustration" style="height: 607.859px;">
+							<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_cableado_ilustracion2.png" data-aos="fade-up" data-aos-delay="600">
+							<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_cableado_ilustracion3.png" data-aos="fade-up" data-aos-delay="400">
+							<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_cableado_ilustracion4.png" data-aos="fade-up" data-aos-delay="200">
+							<img class="layered-illustration__layer img-responsive aos-init aos-animate" src="images/productos_cableado_ilustracion1.png" data-aos="fade-up">
+						</div>	
+					</div>
+				</div>
+			</div>
+        </div>
+
+		<div class="row no-gutters">
+			<div class="col-md-6">
+				<div class="horizontal-bar horizontal-bar--black aos-init aos-animate" onclick="openPopup('reg')" ontouchstart="openPopup('reg')" data-aos="fade-right">
+					<img src="images/icon-right-arrow.png">
+					<span>Ponte en contacto con nosotros</span>
+					<img src="images/icon-02.png">
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-10 offset-md-1">
+							<div class="footer__container">
+								<a href="https://www.infomatica.pe">
+									<img src="images/logo.svg" alt="Imagen del Logo Footer" class="footer__logo">
+								</a>
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/inforest">
+										<h4 class="menu__title mt-0 text-title-footer">INFOrest</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">INFOrest</h4>
+									<li style="display: list-item;"><a href="/inforest/#beneficios">Beneficios</a></li>
+									<li style="display: list-item;"><a href="/inforest/#infoback">INFOback</a></li>
+									<li style="display: list-item;"><a href="/inforest/#version-movil">Versión Móvil</a></li>
+									<li style="display: list-item;"><a href="/inforest/#modulos">Módulos</a></li>
+									<li style="display: list-item;"><a href="/inforest/#complementos">Complementos</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/infohotel">
+										<h4 class="menu__title mt-0 text-title-footer">INFOhotel</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">INFOhotel</h4>
+									<li><a href="/infohotel/#beneficios">Beneficios</a></li>
+									<li><a href="/infohotel/#infoback">INFOback</a></li>
+									<li><a href="/infohotel/#integracion-web">Integración Web</a></li>
+									<li><a href="/infohotel/#modulos">Módulos</a></li>
+									<li><a href="/infohotel/#complementos">Complementos</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/servicios">
+										<h4 class="menu__title mt-0 text-title-footer">Servicios</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Servicios</h4>
+									<li><a href="/servicios/#post-venta">Post Venta</a></li>
+									<li><a href="/servicios/#beneficios">Beneficios</a></li>
+									<li><a href="/servicios/#infofact">INFOfact</a></li>
+									<li><a href="/servicios/#capacitaciones">Capacitaciones</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/productos">
+										<h4 class="menu__title mt-0 text-title-footer">Productos</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Productos</h4>
+									<li><a href="/productos/#amc">AMC</a></li>
+									<li><a href="/productos/#hardware">Hardware</a></li>
+									<li><a href="/productos/#cableado">Cableado</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/soporte">
+										<h4 class="menu__title mt-0 text-title-footer">Soporte</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Soporte</h4>
+									<li><a href="/soporte/#tutoriales">Tutoriales</a></li>
+									<li><a href="/soporte/#tickets">Tickets</a></li>
+									<li><a href="/soporte/#aplicacion-movil">Aplicación Móvil</a></li>
+									<li><a href="/soporte/#contacto">Contacto</a></li>
+								</ul>
+								
+								<ul class="menu__list menu__list--footer">
+									<a class="footer__main-title-link" href="/nosotros">
+										<h4 class="menu__title mt-0 text-title-footer">Nosotros</h4>
+									</a>
+									<h4 class="menu__title mt-0 footer-toggle active">Nosotros</h4>
+									<li><a href="/nosotros/#trayectoria">Trayectoria</a></li>
+									<li><a href="/nosotros/#cultura">Cultura</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+		</footer>
+	
+		<div class="footer-bar">
+				<div class="container-fluid">
+					<div class="row mx-0 d-none d-md-flex">
+						<div class="col-md-12 text-center">
+							<span>© 2021, Infomática. Todos los derechos reservados.</span>
+						</div>
+					</div>
+					<a href="#">
+						<div class="row d-md-none px-15px">	
+							<div class="col">Regresar arriba</div>
+							<div class="col text-right">
+								<img class="d-md-none" src="images/back-top-icon.png"></img>
+							</div>
+						</div>
+					</a>
+				</div>
+		</div>
+			<!-- Footer -->
+
+
+		<script src="js/car.js"></script>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
